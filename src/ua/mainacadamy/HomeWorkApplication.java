@@ -1,6 +1,7 @@
 package ua.mainacadamy;
 
 import ua.mainacadamy.Models.Circle;
+import ua.mainacadamy.Models.Square;
 import ua.mainacadamy.Models.Triangle;
 import ua.mainacadamy.Models.TriangleTwo;
 
@@ -21,5 +22,9 @@ public class HomeWorkApplication {
         trianglet.setSideD(90);
         trianglet.setSideF(50);
         System.out.println("Triangle Two area with sides "+trianglet.getSideF()+" "+trianglet.getSideD()+" "+trianglet.getSideC()+" and radius "+ Circle.getRadius()+" is "+trianglet.getArea());
+
+        Square square = new Square();
+        square.getSideA();
+        System.out.println("The square with side "+square.getSideA()+" is "+square.getArea());
 }
 }
